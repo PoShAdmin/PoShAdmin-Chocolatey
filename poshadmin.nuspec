@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>poshadmin</id>
+    <title>PoShAdmin</title>
+    <version>1.0.0.1</version>
+    <authors>Greg Szabo, PoShAdmin.Net</authors>
+    <owners>Greg Szabo</owners>
+    <summary>PoShAdmin is a set of PowerShell tools to ease SysAdmin life. It contains PowerShell modules that enables faster turnaround time for remote troubleshooting and computer management.</summary>
+    <description>PoShAdmin makes managing computers a breeze with PowerShell. It fills the gap for remote management, remote registry changes, parallel execution. If you ever had to run a piece of PowerShell code on more than 20 machines in a short amount of time, PoShAdmin is for you.
+    </description>
+    <projectUrl>http://PoShAdmin.Net</projectUrl>
+    <packageSourceUrl>https://github.com/Greg-Szabo/PoShAdmin</packageSourceUrl>
+    <!--<projectSourceUrl></projectSourceUrl>
+    <docsUrl></docsUrl>
+    <mailingListUrl></mailingListUrl>
+    <bugTrackerUrl></bugTrackerUrl>-->
+    <tags>poshadmin admin sysadmin powershell module</tags>
+    <copyright>(c) 2016 PoShAdmin.Net. All rights reserved.</copyright>
+    <licenseUrl>http://PoShAdmin.Net</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <!--<iconUrl>http://cdn.rawgit.com/__REPLACE_YOUR_REPO__/master/icons/poshadmin.png</iconUrl>-->
+    <dependencies>
+      <dependency id="PsGet" version="1.0"/>
+    </dependencies>
+    <releaseNotes>Initial release. This program is AS IS. Use it at your own risk.</releaseNotes>
+    <!--<provides></provides>-->
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
