@@ -1,5 +1,4 @@
-﻿
-$ErrorActionPreference = 'Stop';
+﻿$ErrorActionPreference = 'Stop';
 
 $PoShAdminVersion="1.0.0.1"
 $packageName= 'poshadmin'
