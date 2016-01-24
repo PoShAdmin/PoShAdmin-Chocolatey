@@ -20,7 +20,7 @@
     <copyright>(c) 2016 PoShAdmin.Net. All rights reserved.</copyright>
     <licenseUrl>http://PoShAdmin.Net</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <iconUrl>http://cdn.rawgit.com/PoShAdmin-Chocolatey/master/icons/poshadmin.png</iconUrl>-->
+    <iconUrl>https://cdn.rawgit.com/PoShAdmin/PoShAdmin-Chocolatey/master/icons/poshadmin.png</iconUrl>-->
     <dependencies>
       <dependency id="PsGet" version="1.0"/>
     </dependencies>
