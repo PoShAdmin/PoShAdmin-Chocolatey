@@ -13,6 +13,10 @@ $packageArgs = @{
   checksumType  = 'sha1'
 }
 
+if ($PSVersionTable.PSVersion.Major -lt 3) {
+	throw "PowerShell 3 or above is required for this package."
+}
+
 Install-ChocolateyZipPackage @packageArgs
 Import-Module PsGet
-Install-Module -ModuleName PoShAdmin -ModulePath "$($packageArgs.unzipLocation)`\PoShAdmin-$PoShAdminVersion" -Global -Force -DoNotImport:$true
+PsGet\Install-Module -ModuleName PoShAdmin -ModulePath "$($packageArgs.unzipLocation)`\PoShAdmin-$PoShAdminVersion" -Global -Force -DoNotImport:$true
